@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+	<title>登录</title>
+	<link rel="stylesheet" href="../css/base.css" />
+	<link rel="stylesheet" href="../css/login.css" />
+	
+	<script type="text/javascript" src="../lib/jquery-1.12.3.js" ></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js"  charset="utf-8"></script>
+		<script type="text/javascript" src="../js/login.js" charset="utf-8" ></script>
+	<script type="text/javascript" src="../js/common.js" ></script>
+	
+    
+    
+	
+</head>
+<body>
+	<div class="main-header"></div>
+	<div class="w1200">  
+	 <div class="Register_z clear">
+    <h3>登录 | 顾客注册</h3>
+	  <div class="col-md-6"> <!--登录-->
+		  <div class="Signin">
+			  <form class="login_form">
+				  <h4>登录</h4>
+				  <input type="hidden" id="loadingTxt" value="处理中...">
+				  <div class="item-ifo"> <s class="youx"></s>
+					  <input type="text" class="itxt" name="loginName" tabindex="1" autocomplete="off" placeholder="邮箱 / ID / 手机号">
+					  <p></p>
+				  </div>
+				  <div class="item-ifo"> <s class="suo"></s>
+					  <input type="password" class="itxt" name="pwdOriginal_login" tabindex="1" autocomplete="off" placeholder="密码">
+					  <p></p>
+					  <label style="display: block" class="result_msg "></label>
+				  </div>
+				  <div class="item-ifo">
+					  <input type="button" class="btn-Login" name="login_submit" value="登录" tabindex="8" clstag="regist|keycount|personalreg|07" autocomplete="off">
+					  <a class="c-b" href="#">忘记密码 ?</a>
+				  </div>
+			  </form>
+		  </div>
+	  </div>
+	  <div class="col-md-6"><!--注册-->
+		  <div class="Register">
+			  <h4>顾客注册</h4>
+			  <form class="register_form">
+				  <div class="item-ifo height65"> 
+				  	<s class="youx"></s>
+					  <input id="" type="text" class="itxt" name="email" tabindex="1" autocomplete="off" placeholder="电子邮箱/手机号">
+					  <span class="msg"><img src="../img/login/blank.gif"></span>
+					  <p></p>
+				  </div>
+
+				  <div class="item-ifo height65"> <s class="suo"></s>
+					  <input type="password" class="itxt" name="pwdOriginal" tabindex="1" autocomplete="off" placeholder="密码">
+					  <span class="msg"><img src="../img/login/blank.gif"></span>
+					  <p></p>
+				  </div>
+
+				  <div class="item-ifo height75"> <s class="suo"></s>
+					  <input type="text" class="itxt" name="captcha" tabindex="1" autocomplete="off" placeholder="验证码">
+					  <span class="msg"><img src="../img/login/blank.gif"></span>
+					  <p style="height: 10px"></p>
+
+				  </div>
+				  <input type="button" autocomplete="off" class="btn btn-white btn-weak get_captcha " value="获取验证码">
+
+				  <div class="item-ifo modal_main " style="height: 35px;">
+					  <label><input autocomplete="off" name="disclaimer" checked="" type="checkbox" class="jdcheckbox">
+						  我同意<a href="javascript:showRegister('zh');" class="se_497fb1" id="protocol">《TPS用户注册协议》</a>					  <span class="msg"><img src="../img/login/blank.gif"></span>
+					  <p></p>
+				  </label></div>
+				  <div class="item-ifo">
+					  <input type="submit" autocomplete="off" class="btn-Register" name="register_submit" value="马上注册" tabindex="8" clstag="regist|keycount|personalreg|07">
+				  		<input type="hidden" value="重发验证码" id="resend_captcha">
+				  		<input type="hidden" value="获取验证码" id="get_captcha">
+				  </div>
+			  </form>
+		  </div>
+
+	  </div>
+  </div>
+    </div>
+	<div id="main-footer"></div>
+		
+</body>
+</html>

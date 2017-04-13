@@ -1,0 +1,59 @@
+.w1200{width: 1200px;margin: 0 auto;}
+div{display: block;}
+body{word-wrap: break-word;font: 12px/1.5 tahoma,arial,helvetica,"microsoft yahei",sans-serif;color: #333;}
+/*word-wrap 属性允许长单词或 URL 地址换行到下一行。在长单词或 URL 地址内部进行换行*/
+*:before{box-sizing: border-box;}
+*:after{box-sizing: border-box;}
+.main-header:after,.main-content:after,.main-footer:after,.w1200:after,.tps-stars:after,.popular:after,dl.tit:after{display: table;clear: both;content: "";}
+
+.Register_z{padding-top: 40px;}
+.clear{zoom: 1;}
+.clear:after{display: table;clear: both;content: "";}
+.Register_z h3{font-size: 1.6em;line-height: 2em;color: #333;font-weight: 700;border-bottom: solid 2px #888;} 
+h3,form,h4,input{margin: 0;padding: 0;}
+h3{display:block;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
+h4{display:block;-webkit-margin-before: 1.33em;-webkit-margin-after: 1.33em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
+form{display: block;}
+.col-md-6{width: 50%;float: left;}
+
+input{vertical-align: middle;outline: none;font-size: 100%;}
+input{font: 12px/1.5 tahoma,arial,helvetica,"microsoft yahei",sans-serif;color: #333;}
+.item-ifo{position: relative;margin: 20px 0;height: 65px;}
+.item-ifo input[type="text"]{color: #666;}
+.result_msg{text-align: left;font-size: 12px;color:#d22215;margin-top: 5px;}
+label{cursor: pointer;}
+label{vertical-align: middle;outline: none;}
+.c-b a.c-b{color: #2266d6;}
+a:link{text-decoration: none;vertical-align: baseline;    transition: color .3s, background-color .3s;}
+/*a:-webkit-any-link{cursor:auto}*/
+.height65{height: 62px;}
+s{text-decoration: line-through;}
+.item-ifo span{display: inline-block;position: absolute;top:18%;}
+.msg{margin-bottom: 209px;}
+img{border: none;overflow: hidden;}
+.Signin, .Register { padding: 20px 0 0 10%; margin-top: 20px; }
+.Signin h4, .Register h4 { font-size: 1.2em; line-height: 2em; color: #666; font-weight: 700; }
+.item-ifo { position: relative; margin: 20px 0; height: 65px; }
+.item-ifo s.youx { display: inline-block; position: absolute; left: 16px; top: 15px; width: 18px; height: 14px; background: url(../img/common/ico_mui.png) no-repeat -76px -91px; }
+.item-ifo s.suo { display: inline-block; position: absolute; left: 16px; top: 10px; width: 18px; height: 20px; background: url(../img/common/ico_mui.png) no-repeat -102px -90px; }
+.item-ifo .itxt { line-height: 18px; height: 18px; border: solid 1px #ccc; padding: 2% 10% 2% 8%; float: none; overflow: hidden; font-size: 14px; font-family: '\5b8b\4f53'; }
+.item-ifo span { display: inline-block; position: absolute; top: 18%; }
+.Signin p a { margin-right: 20px; }
+.Enrollment { padding: 2% 10%; }
+.Enrollment .itxt { padding: 2% 20% 2% 3%; }
+.Enrollment .btn-Login { padding: .8% 4%; }
+.Enrollment .guojia { border: solid 1px #ccc; padding-left: 2%; height: 39px; overflow: hidden; }
+.item-ifo em { color: #ff1200; margin-right: 1%; }
+.item-ifo p { color: #ff1200; margin: 1% 0 0 2px; }
+.item-ifo .tel { background: #eee; }
+.i_yzm em { margin-right: 2%; }
+.i_wbk .itxt { padding: 1.5% 2% 3%; height: 70px; }
+.i_yzm .itxt { padding: 1% 0 1% 1%;  margin-right: 1%; }
+.i_yzm img { margin: 0 1%; }
+.i_yzm a { top: -10px; position: relative; }
+.i_yzm em, .i_yzm .itxt, .itxt img, .itxt a { float: left; }
+.btn-Login, .btn-Register { margin-right: 20px; background: #d22215; padding: 1.5% 7%; border: none; color: #fff; font-weight: 600; cursor: pointer; font-size: 14px; font-family: '\5b8b\4f53'; -webkit-transition: all .3s ease 0s; -moz-transition: all .3s ease 0s; -o-transition: all .3s ease 0s; transition: all .3s ease 0s; }
+.btn-Register { background: #2c3444; }
+.btn-Login:hover { background: #f41100; }
+.btn-Register:hover { background: #303f5c; }
+.Register { border-left: solid 1px #ccc; min-height: 440px; }
